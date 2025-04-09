@@ -1,18 +1,45 @@
-# 🔐 Ultimate Password Generator
+# Password Generator Project
 
-A command-line tool for generating secure and customizable passwords with strength evaluation.
+## Group Members
+- **Velma Okumu** (ID: 673016)  
+- **Shirley Khamala** (ID: 672965)  
+- **Angel Nganga** (ID: 672264)  
+- **Hope George** (ID: 673127)  
+- **Mohamed Ali** (ID: 672823)  
+- **Mohamed Abukar Abdisalan** (ID: 673019)  
+
+## Project Goals
+To develop a secure and user-friendly password generator that allows users to specify desired length and character types (uppercase, lowercase, digits, and symbols). The goal is to create strong, unpredictable passwords and provide password strength evaluation.
+
+## Setup Instructions
+1. Clone the repository:
+```bash
+git clone https://github.com/Ivy-vee8/Password-Generator-Project.git
+```
+2. Navigate to the project directory:
+```bash
+cd Password-Generator-Project
+```
+3. Launch Jupyter Notebook:
+```bash
+jupyter notebook
+```
+4. Open and run the `password_generator.ipynb` notebook.
+
+## Dependencies
+- Python 3.x
+- Jupyter Notebook
+- No external libraries needed (uses built-in `secrets` and `string` modules)
+
+
+## Features
+- Customizable password length and character types
+- Password strength evaluation
+- Secure randomness using `secrets` module
 
 ---
 
-## 🚀 Features
+##Future Improvement 
+- GUI Integration
 
-- ✅ Generates cryptographically secure passwords
-- ✅ Allows users to define:
-  - Total password length
-  - Minimum number of lowercase, uppercase, digits, and symbols
-- ✅ Ensures inclusion of all character types
-- ✅ Rates password strength: **Weak**, **Medium**, or **Strong**
-
-  📌 Future Improvements
-Add a GUI using tkinter or PyQt
-Allow users to save passwords
+Thank you for reviewing our project!
